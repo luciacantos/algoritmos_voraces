@@ -19,8 +19,7 @@ def cambios_minimos(row):
 
     return cambios
 
-# ejemplos
-
+# ejemplo
 row = [0,2,1,3]
 print("[0,2,1,3]")
 print(cambios_minimos(row))
