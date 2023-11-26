@@ -18,3 +18,11 @@ def cambios_minimos(row):
         index += 2
 
     return cambios
+
+# ejemplos
+
+row = [0,2,1,3]
+print("[0,2,1,3]")
+print(cambios_minimos(row))
+
+
