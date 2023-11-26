@@ -11,4 +11,10 @@ def cambios_minimos(row):
 
         pareja_index = row.index(estado_esperado)
 
-        
+        if abs(pareja_index - index) > 1:
+            row[index + 1], row[pareja_index] = row[pareja_index], row[index + 1]
+            cambios += 1
+
+        index += 2
+
+    return cambios
